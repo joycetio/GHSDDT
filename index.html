@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!--Slate Bootswatch-->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-RpX8okQqCyUNG7PlOYNybyJXYTtGQH+7rIKiVvg1DLg6jahLEk47VvpUyS+E2/uJ" crossorigin="anonymous"> -->
     <!--Flatly Bootswatch-->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
     <!--jQuery Link-->
@@ -30,7 +28,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">GHSDDT</a>
+                <a class="navbar-brand" href="#">Logo</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -70,7 +68,7 @@
                         <br/>
                         <h4><strong>USA National Championship titles since 1999:</strong></h4>
                         <table class="table table-bordered">
-                            <tr class="info">
+                            <tr class="default">
                                 <td>Year</td>
                                 <td>National Titles:</td>
                             </tr>
@@ -152,189 +150,270 @@
                             </tr>
                         </table>
                         <div class="nationalTitlesList">
-                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title">Our Director</p>
+                            <img class="img-responsive" href="#">
+                        </div>
+                        <div class="panel-body">
+                            <p>Our director has been directing the GHS Dance Drill Team since 1995. She is highly respected by her dancers, her collegues, and throughout the dance community.</p>
+                            <button type="button" data-toggle="modal" data-target="#ourDirector" class="btn btn-primary">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title">Our Coaches</p>
+                            <img class="img-responsive" href="#">
+                        </div>
+                        <div class="panel-body">
+                            <p>Each of our coaches is a Glendale alumni. They have a deep understanding of the ropes of the team, as well as the ways of the competitive dance circuit.</p>
+                            <!--Include a modal for each button in the panel-->
+                            <button type="button" data-toggle="modal" data-target="#ourCoaches" class="btn btn-primary">More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <p class="panel-title">Our Captains</p>
+                            <img class="img-responsive" href="#">
+                        </div>
+                        <div class="panel-body">
+                            <p>The captains of the team are members of the team that are elected by their peers and coaches. Each captain is in charge of a specific competition routine or program.</p>
+                            <button type="button" data-toggle="modal" data-target="#danceCaptains" class="btn btn-primary">Dance Captains</button>
+                            <button type="button" data-toggle="modal" data-target="#drillCaptains" class="btn btn-primary">Drill Captains</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <p class="panel-title">Our Director</p>
-                        <img class="img-responsive" href="#">
+        <!--Director Modal-->
+        <div id="ourDirector" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Meet our Director</h4>
                     </div>
-                    <div class="panel-body">
-                        <p>Our director has been directing the GHS Dance Drill Team since 1995. She is highly respected by her dancers, her collegues, and throughout the dance community.</p>
-                        <button type="button" data-toggle="modal" data-target="#ourDirector" class="btn btn-primary">More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <p class="panel-title">Our Coaches</p>
-                        <img class="img-responsive" href="#">
-                    </div>
-                    <div class="panel-body">
-                        <p>Each of our coaches is a Glendale alumni. They have a deep understanding of the ropes of the team, as well as the ways of the competitive dance circuit.</p>
-                        <!--Include a modal for each button in the panel-->
-                        <button type="button" data-toggle="modal" data-target="#ourCoaches" class="btn btn-primary">More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <p class="panel-title">Our Captains</p>
-                        <img class="img-responsive" href="#">
-                    </div>
-                    <div class="panel-body">
-                        <p>The captains of the team are members of the team that are elected by their peers and coaches. Each captain is in charge of a specific competition routine or program.</p>
-                        <button type="button" data-toggle="modal" data-target="#danceCaptains" class="btn btn-primary">Dance Captains</button>
-                        <button type="button" data-toggle="modal" data-target="#drillCaptains" class="btn btn-primary">Drill Captains</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Director Modal-->
-    <div id="ourDirector" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Meet our Director</h4>
-                </div>
-                <div class="modal-body text-center">
-                    <h1> Kelly Palmer </h1>
-                    <img class="img-responsive" alt="Kelly Palmer" href="#">
-                    <h2> Hoover High School Class of '89</h2>
-                    <h4>Dance Team '86-'87</h4>
-                    <h4>JV Song Leader'87-'88</h4>
-                    <h4>Varsity Song'88-'89</h4>
-                    <h2>UCLA CLASS OF '93</h2>
-                    <h3>Bachelors in Shakespearean Literature &amp; Psychology </h3>
-                    <h2>PEPPERDINE UNIVERSITY CLASS OF '96 &amp; '07</h2>
-                    <h3>Masters in Education, Administrative Leadership, Clinical Psychology, School Site Counseling</h3>
-                    <h2>GLENDALE HIGH SCHOOL SINCE 1996</h2>
-                    <h3>Dance Director, AP English Literature</h3>
-                    <h2>CALIFORNIA ASSOCIATIVE OF DANCE/DRILL TEAM DIRECTORS</h2>
-                    <h3>VICE PRESIDENT, 2013-2015</h3>
-                    <h3>PRESIDENT, 2015-2017</h3>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Coaches Modal-->
-    <div id="ourCoaches" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Meet our Coaches</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="col-lg-6">
+                    <div class="modal-body text-center">
                         <h1> Kelly Palmer </h1>
-                        <img class="img-responsive" alt="Kelly Palmer" href="images/KellyPalmer.jpg" height=150 width=150>
-                        <h3>Director since 1995</h3>
-                        <br>
-                        <h1> Stephanie Boon</h1>
-                        <img class="img-responsive" alt="Stephanie Boon" href="#">
-                        <h3>Dance &amp; Drill Team Coach</h3>
-                        <h4>GHS Alumna, 2009</h4>
-                        <h4><ul>Dance Team:
+                        <img class="img-responsive" alt="Kelly Palmer" src="images/KellyPalmer.jpg">
+                        <h2> Hoover High School Class of '89</h2>
+                        <h4>Dance Team '86-'87</h4>
+                        <h4>JV Song Leader'87-'88</h4>
+                        <h4>Varsity Song'88-'89</h4>
+                        <h2>UCLA CLASS OF '93</h2>
+                        <h3>Bachelors in Shakespearean Literature &amp; Psychology </h3>
+                        <h2>PEPPERDINE UNIVERSITY CLASS OF '96 &amp; '07</h2>
+                        <h3>Masters in Education, Administrative Leadership, Clinical Psychology, School Site Counseling</h3>
+                        <h2>GLENDALE HIGH SCHOOL SINCE 1996</h2>
+                        <h3>Dance Director, AP English Literature</h3>
+                        <h2>CALIFORNIA ASSOCIATIVE OF DANCE/DRILL TEAM DIRECTORS</h2>
+                        <h3>VICE PRESIDENT, 2013-2015</h3>
+                        <h3>PRESIDENT, 2015-2017</h3>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>r
+        <!--Coaches Modal-->
+        <div id="ourCoaches" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Meet our Coaches</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" alt="Kelly Palmer" src="images/GlendaleCoaches.JPG">
+                        <div class="col-lg-6">
+                            <h1> Kelly Palmer </h1>
+                            <img class="img-responsive" alt="Kelly Palmer" href="images/KellyPalmer.jpg" height=150 width=150>
+                            <h3>Director since 1995</h3>
+                            <br>
+                            <h1> Stephanie Boon</h1>
+                            <img class="img-responsive" alt="Stephanie Boon" href="#">
+                            <h3>Dance &amp; Drill Team Coach</h3>
+                            <h4>GHS Alumna, 2009</h4>
+                            <h4><ul>Dance Team:
                             <li>Small Dance Drill</li>
                             <li>Large Dance Drill</li>
                             <li>Large lyrical</li>
                         </ul>
                         <ul>Drill Team:
                             <li>Small Military</li>
-                            <li>Medium Military</li>
+                            
                             <li>Large Military</li>
-                            <li>Character</li>
-                        </ul></h4>
-                        <br>
-                        <h1> Sean Koro</h1>
-                        <img class="img-responsive" alt="Sean Koro" href="#">
-                        <h3>Dance Team Coach</h3>
-                        <h4>GHS Alumnus</h4>
-                        <h4>Co-Ed Dance</h4>
-                        <br>
-                        <h1> Daniel Kim </h1>
-                        <img class="img-responsive" alt="Daniel Kim" href="#">
-                        <h3>Dance Team Coach</h3>
-                        <h4>GHS Alumnus, 2011</h4>
-                        <h4>Large Hip Hop</h4>
-                        <br>
-                        <h1> Marc Miranda </h1>
-                        <img class="img-responsive" alt="Marc Miranda" href="#">
-                        <h3>Dance Team Coach</h3>
-                        <h4>GHS Alumnus</h4>
-                        <h4>All Male</h4>
-                        <br>
-                        <h1> Allina Urumieh</h1>
-                        <img class="img-responsive" alt="Allina Urumieh" href="#">
-                        <h3>Dance Team Coach</h3>
-                        <h4>GHS Alumna, 2013</h4>
-                        <h4>Solos</h4>
-                        <br>
-                    </div>
-                    <div clas="col-lg-6">
-                        <h1>Jordan Murray</h1>
-                        <img class="img-responsive" alt="Jordan Murray" href="#">
-                        <h3>Drill Team Coach</h3>
-                        <h4>GHS Alumna, 2015</h4>
-                        <h4><ul>
-                            <li>Small Military</li>
-                            <li>Medium Military</li>
-                            <li>Large Military</li>
-                            <li>Medium Hip Hop</li>
-                            <li>Character</li>
-                        </ul></h4>
-                        <br>
-                        <h1> Alissa Highgate </h1>
-                        <img class="img-responsive" alt="Alissa Highgate" href="#">
-                        <h3>Drill Team Coach</h3>
-                        <h4>GHS Alumna, 2016</h4>
-                        <h4><ul>
-                            <li>Assistant Small Military</li>
-                            <li>Assistant Medium Military</li>
-                            <li>Assistant Large Military</li>
                             
                         </ul></h4>
-                        <br>
-                        <h1> Micah Caro</h1>
-                        <img class="img-responsive" alt="Micah Caro" href="#">
-                        <h3>Drill Team Coach</h3>
-                        <h4>GHS Alumna, 2016</h4>
-                        <h4><ul>
-                            <li>Assistant Character</li>
-                            <li>Assistant Medium Hip Hop</li>
+                            <br>
+                            <h1> Sean Koro</h1>
+                            <img class="img-responsive" alt="Sean Koro" href="#">
+                            <h3>Dance Team Coach</h3>
+                            <h4>GHS Alumnus</h4>
+                            <h4>Co-Ed Dance</h4>
+                            <br>
+                            <h1> Daniel Kim </h1>
+                            <img class="img-responsive" alt="Daniel Kim" href="#">
+                            <h3>Dance Team Coach</h3>
+                            <h4>GHS Alumnus, 2011</h4>
+                            <h4>Large Hip Hop</h4>
+                            <h4>All Male</h4>
+                            <br>
+                            <h1> Marc Miranda </h1>
+                            <img class="img-responsive" alt="Marc Miranda" src="images/MarcMiranda.JPG" height=250 width=250>
+                            <h3>Dance Team Coach</h3>
+                            <h4>GHS Alumnus</h4>
+                            <h4>All Male</h4>
+                            <br>
+                            <h1> Allina Urumieh</h1>
+                            <img class="img-responsive" alt="Allina Urumieh" href="#">
+                            <h3>Dance Team Coach</h3>
+                            <h4>GHS Alumna, 2013</h4>
+                            <h4>Solos</h4>
+                            <br>
+                        </div>
+                        <div clas="col-lg-6">
+                            <h1>Jordan Murray</h1>
+                            <img class="img-responsive" alt="Jordan Murray" href="#">
+                            <h3>Drill Team Coach</h3>
+                            <h4>GHS Alumna, 2015</h4>
+                            <h4><ul>
                             <li>Small Dance Drill</li>
+                        </ul></h4>
+                            <br>
+                            <h1> Alissa Highgate </h1>
+                            <img class="img-responsive" alt="Alissa Highgate" src="images/Kiki.JPG" height=250 width=250>
+                            <h3>Drill Team Coach</h3>
+                            <h4>GHS Alumna, 2016</h4>
+                            <h4><ul>
+                            
+                            <li>Large Military</li>
                             
                         </ul></h4>
-                        <br>
-                        <h1> Jared Singzon </h1>
-                        <img class="img-responsive" alt="Jared Singzon" href="#">
-                        <h3>Middle School Coach</h3>
-                        <h4>GHS Alumnus, 2016</h4>
-                        <h4>Roosevelt Middle School Dance Program</h4>
-                        <br>
-                        <h1> Iris Arciniega </h1>
-                        <img class="img-responsive" alt="Iris Arciniega" href="#">
-                        <h4>GHS Alumna, 2009</h4>
-                        <h4>Costumes &amp; Outfits</h4>
-                        <br>
-                        <h1> Mr. Lancaster</h1>
-                        <img class="img-responsive" alt="Mr. Lancaster" href="#">
-                        <h4>Photographer</h4>
+                            <br>
+                            <h1> Micah Caro</h1>
+                            <img class="img-responsive" alt="Micah Caro" href="#">
+                            <h3>Drill Team Coach</h3>
+                            <h4>GHS Alumna, 2016</h4>
+                            <h4><ul>
+                            
+                            <li>Medium Hip Hop</li>
+                            <li>Small Military</li>
+                            
+                        </ul></h4>
+                            <br>
+                            <h1> Jared Singzon </h1>
+                            <img class="img-responsive" alt="Jared Singzon" href="#">
+                            <h3>Middle School Coach</h3>
+                            <h4>GHS Alumnus, 2016</h4>
+                            <h4>Roosevelt Middle School Dance Program</h4>
+                            <br>
+                            <h1> Iris Arciniega </h1>
+                            <img class="img-responsive" alt="Iris Arciniega" href="#">
+                            <h4>GHS Alumna, 2009</h4>
+                            <h4>Costumes &amp; Outfits</h4>
+                            <br>
+                            <h1> Mr. Lancaster</h1>
+                            <img class="img-responsive" alt="Mr. Lancaster" href="#">
+                            <h4>Photographer</h4>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Drill Captains Modal-->
+        <div id="drillCaptains" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Glendale Drill Captains</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <img src="#" alt="Drill Captains" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h1>Loren Te</h1>
+                                <img class="img-responsive" alt="Loren Te" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Small Dance Drill</h3></li>
+                                    <li>
+                                        <h3>Medium Hip Hop Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Stephanie Figueroa</h1>
+                                <img class="img-responsive" alt="Stephanie Figueroa" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Small Military</h3></li>
+                                    <li>
+                                        <h3>Medium Military</h3></li>
+                                    <li>
+                                        <h3>Large Military</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Ashley Zamora</h1>
+                                <img class="img-responsive" alt="Ashley Zamora" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Small Military</h3></li>
+                                    <li>
+                                        <h3>Medium Military</h3></li>
+                                    <li>
+                                        <h3>Large Military</h3></li>
+                                </ul>
+                                <br>
+                            </div>
+                            <div class="col-lg-6">
+                                <h1>Shara Lapides</h1>
+                                <img class="img-responsive" alt="Shara Lapides" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Character Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Malik Olalia</h1>
+                                <img class="img-responsive" alt="Malik Olalia" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Roosevelt Middle School Dance Program Manager</h3></li>
+                                    <li>
+                                        <h3>International Dance Team Manager</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Kyle Butac</h1>
+                                <img class="img-responsive" alt="Kyle Butac" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Roosevelt Middle School Dance Program Manager</h3></li>
+                                    <li>
+                                        <h3>International Dance Team Manager</h3></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -342,187 +421,102 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!--Drill Captains Modal-->
-    <div id="drillCaptains" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Glendale Drill Captains</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img src="#" alt="Drill Captains" class="img-responsive">
+        <!--Dance Captains Modal-->
+        <div id="danceCaptains" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Glendale Dance Captains</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="#" alt="Dance Captains" class="img-responsive">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h1>Jeremiah Caro</h1>
+                                <img class="img-responsive" alt="Jeremiah Caro" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Head Captain</h3></li>
+                                    <li>
+                                        <h3>All Male Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Gabrielle Karganilla</h1>
+                                <ul>
+                                    <li>
+                                        <h3>Girls Coed Lead</h3></li>
+                                    <li>
+                                        <h3>Small Dance Drill Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Yanna Buenaseda</h1>
+                                <img class="img-responsive" alt="Yanna Buenaseda" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Large Dance Drill Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Samantha Zendejas</h1>
+                                <img class="img-responsive" alt="Sammy Zendejas" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Large Dance Drill Captain</h3></li>
+                                </ul>
+                                <br>
+                            </div>
+                            <div class="col-lg-6">
+                                <h1>Nestle Quiambao</h1>
+                                <img class="img-responsive" alt="Nestle Quiambao" src="images/nestleQ.jpg">
+                                <ul>
+                                    <li>
+                                        <h3>Large Hip Hop Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Miguel Olalia</h1>
+                                <img class="img-responsive" alt="Miguel Olalia" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Large Hip Hop Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Aga Nogalska</h1>
+                                <img class="img-responsive" alt="Aga Nogalska" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Large Lyrical Captain</h3></li>
+                                    <li>
+                                        <h3>Girls Soloist Captain</h3></li>
+                                </ul>
+                                <br>
+                                <h1>Shara Lapides</h1>
+                                <img class="img-responsive" alt="Shara Lapides" href="#">
+                                <ul>
+                                    <li>
+                                        <h3>Boy Soloists</h3></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h1>Loren Te</h1>
-                            <img class="img-responsive" alt="Loren Te" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Small Dance Drill</h3></li>
-                                <li>
-                                    <h3>Medium Hip Hop Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Stephanie Figueroa</h1>
-                            <img class="img-responsive" alt="Stephanie Figueroa" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Small Military</h3></li>
-                                <li>
-                                    <h3>Medium Military</h3></li>
-                                <li>
-                                    <h3>Large Military</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Ashley Zamora</h1>
-                            <img class="img-responsive" alt="Ashley Zamora" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Small Military</h3></li>
-                                <li>
-                                    <h3>Medium Military</h3></li>
-                                <li>
-                                    <h3>Large Military</h3></li>
-                            </ul>
-                            <br>
-                        </div>
-                        <div class="col-lg-6">
-                            <h1>Shara Lapides</h1>
-                             <img class="img-responsive" alt="Shara Lapides" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Character Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Malik Olalia</h1>
-                            <img class="img-responsive" alt="Malik Olalia" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Roosevelt Middle School Dance Program Manager</h3></li>
-                                <li>
-                                    <h3>International Dance Team Manager</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Kyle Butac</h1>
-                            <img class="img-responsive" alt="Kyle Butac" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Roosevelt Middle School Dance Program Manager</h3></li>
-                                <li>
-                                    <h3>International Dance Team Manager</h3></li>
-                            </ul>
-                            <br>
-                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-    </div>
-    <!--Dance Captains Modal-->
-    <div id="danceCaptains" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Glendale Dance Captains</h4>
-                </div>
-                <div class="modal-body">
-                    <img src="#" alt="Dance Captains" class="img-respnsive">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h1>Jeremiah Caro</h1>
-                            <img class="img-responsive" alt="Jeremiah Caro" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Head Captain</h3></li>
-                                <li>
-                                    <h3>All Male Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Gabrielle Karganilla</h1>
-                            <ul>
-                                <li>
-                                    <h3>Girls Coed Lead</h3></li>
-                                <li>
-                                    <h3>Small Dance Drill Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Yanna Buenaseda</h1>
-                            <img class="img-responsive" alt="Yanna Buenaseda" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Large Dance Drill Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Samantha Zendejas</h1>
-                            <img class="img-responsive" alt="Sammy Zendejas" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Large Dance Drill Captain</h3></li>
-                            </ul>
-                            <br>
-                        </div>
-                        <div class="col-lg-6">
-                            <h1>Nestle Quiambao</h1>
-                            <img class="img-responsive" alt="Nestle Quiambao" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Large Hip Hop Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Miguel Olalia</h1>
-                            <img class="img-responsive" alt="Miguel Olalia" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Large Hip Hop Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Aga Nogalska</h1>
-                            <img class="img-responsive" alt="Aga Nogalska" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Large Lyrical Captain</h3></li>
-                                <li>
-                                    <h3>Girls Soloist Captain</h3></li>
-                            </ul>
-                            <br>
-                            <h1>Shara Lapides</h1>
-                            <img class="img-responsive" alt="Shara Lapides" href="#">
-                            <ul>
-                                <li>
-                                    <h3>Boy Soloists</h3></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Footer-->
-    <!-- <nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
+        <!--Footer-->
+        <!-- <nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
         <div class="container">
             <footer class="fixed text-center">
                 <p class="footer-margin">&copy; 2017 Glendale High School Dance Drill Team</p>
             </footer>
         </div>
     </nav> -->
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <!-- Bootstrap JS & jQuery -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 
 </html>
