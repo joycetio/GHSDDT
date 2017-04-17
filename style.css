@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  padding-bottom: 70px;
+  padding-top: 60px;
 }
 
 #navbarID {
@@ -49,3 +51,8 @@ body {
 .center-pills {
   display: inline-block;
 }
+
+.madeBy {
+  font-size: 10px;
+}
+
