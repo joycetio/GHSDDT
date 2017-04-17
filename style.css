@@ -1,9 +1,21 @@
+body {
+  background-color: black;
+}
+
 #navbarID {
 	color: #082e4f;
 }
 
+.jumbotron {
+	height: 265px;
+	background: url("images/header.jpg");
+	background-size: 100%;
+}
+
 .jumboTitle {
     font-family: 'Pacifico', cursive;
+    color: #f7e6e6;
+    font-size: 50px;
 }
 
 .panel-title {
@@ -24,7 +36,7 @@
 	background-color: white;
 }
 
-.welcomePage {
+/*.welcomePage {
   display: flex;
   position: absolute;
   top: 0;
@@ -32,5 +44,8 @@
   height: 100%;
   width: 100%;
   margin: 0 auto;
-}
+}*/
 
+.center-pills {
+  display: inline-block;
+}
