@@ -1,7 +1,7 @@
 body {
   background-color: black;
   padding-bottom: 70px;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 #navbarID {
@@ -9,9 +9,13 @@ body {
 }
 
 .jumbotron {
-	height: 265px;
-	background: url("images/header.jpg");
-	background-size: 100%;
+  background-color: pink;
+  margin-top: 20px;
+  height: 450px;
+}
+
+#announcement {
+  font-size: 100px;
 }
 
 .jumboTitle {
@@ -56,3 +60,12 @@ body {
   font-size: 10px;
 }
 
+.font-logo {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 25px;
+}
+
+#footer {
+  margin-top: 100px;
+}
