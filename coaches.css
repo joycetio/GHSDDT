@@ -1,0 +1,8 @@
+.StephBoon:hover, .img-description {
+	opacity: 0.5;
+	visibility: visible;
+}
+
+.img-description {
+	visibility: hidden;
+}
