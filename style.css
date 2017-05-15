@@ -52,6 +52,10 @@ body {
   font-size: 25px;
 }
 
+.imageRotate {
+    transform: rotate(180deg);
+}
+
 /*Meet the Staff CSS*/
 .staffTitle {
   color: #eceff1;
