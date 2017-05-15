@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!--Flatly Bootswatch-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
     <!--jQuery Link-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,12 +22,11 @@
     <h1 class="jumboTitle text-center">Glendale Dance Drill Team</h1>
     <div class="row">
         <div class="col-md-12 text-center">
-            <ul class="nav nav-pills center-pills">
+            <ul class="nav nav-pills center-pills navCSS">
                 <li role="presentation" class="active"><a href="index.html">Home</a></li>
                 <li role="presentation"><a href="mainCoaches.html">Meet the Staff</a></li>
                 <li role="presentation"><a href="events.html">Events</a></li>
                 <li role="presentation"><a href="media.html">Media</a></li>
-                
             </ul>
         </div>
     </div>
@@ -127,10 +125,9 @@
         <br/>
         <br/>
         <!--Panels -->
-        <!-- Add pictures for each panel -->
         <div class="row">
             <div class="col-lg-4">
-                <div class="panel panel-default">
+                <div class="panel" id="homePanels">
                     <div class="panel-heading">
                         <p class="panel-title">Meet our Director</p>
                         <br>
@@ -143,7 +140,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="panel panel-default">
+                <div class="panel">
                     <div class="panel-heading">
                         <p class="panel-title">Meet our Coaches</p>
                         <br>
@@ -157,7 +154,7 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="panel panel-default">
+                <div class="panel">
                     <div class="panel-heading">
                         <p class="panel-title">Our Captains</p>
                         <img class="img-responsive" alt="Dance/Drill Captains" src="images/Captains2017.jpeg" height=255 width=260>
@@ -172,13 +169,12 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <div class="panel panel-default">
+                <div class="panel">
                     <div class="panel-heading" id="panelID">
                         <p class="panel-title">The Dance Team's History</p>
                     </div>
                     <div class="panel-body">
                         <p>Since 1999, under the direction of Kelly Palmer, the dance/drill team program has won over 50 National Championship titles. The GHS JV and Varsity dance/drill team competes annually at the United Spirit Association Nationals competition. This is held at the Anaheim Convention Center. The GHS dance/drill team consists of more than 80 dancers with ten coaches and a director.</p>
-                        <br/>
                         <h4><strong>USA National Championship titles since 1999:</strong></h4>
                         <table class="table table-bordered">
                             <tr class="default">
@@ -268,59 +264,60 @@
                 </div>
             </div>
         </div>
-        <!--Director Modal-->
-        <div id="ourDirector" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Meet our Director</h4>
-                    </div>
-                    <div class="modal-body text-center">
-                        <h1> Kelly Palmer </h1>
-                        <img class="img-responsive" alt="Kelly Palmer" src="images/KellyPalmer.jpg">
-                        <h2> Hoover High School Class of '89</h2>
-                        <h4>Dance Team '86-'87</h4>
-                        <h4>JV Song Leader'87-'88</h4>
-                        <h4>Varsity Song'88-'89</h4>
-                        <h2>UCLA CLASS OF '93</h2>
-                        <h3>Bachelors in Shakespearean Literature &amp; Psychology </h3>
-                        <h2>PEPPERDINE UNIVERSITY CLASS OF '96 &amp; '07</h2>
-                        <h3>Masters in Education, Administrative Leadership, Clinical Psychology, School Site Counseling</h3>
-                        <h2>GLENDALE HIGH SCHOOL SINCE 1996</h2>
-                        <h3>Dance Director, AP English Literature</h3>
-                        <h2>CALIFORNIA ASSOCIATIVE OF DANCE/DRILL TEAM DIRECTORS</h2>
-                        <h3>VICE PRESIDENT, 2013-2015</h3>
-                        <h3>PRESIDENT, 2015-2017</h3>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
+    </div>
+    <!--Director Modal-->
+    <div id="ourDirector" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Meet our Director</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <h1> Kelly Palmer </h1>
+                    <img class="img-responsive" alt="Kelly Palmer" src="images/KellyPalmer.jpg">
+                    <h2> Hoover High School Class of '89</h2>
+                    <h4>Dance Team '86-'87</h4>
+                    <h4>JV Song Leader'87-'88</h4>
+                    <h4>Varsity Song'88-'89</h4>
+                    <h2>UCLA CLASS OF '93</h2>
+                    <h3>Bachelors in Shakespearean Literature &amp; Psychology </h3>
+                    <h2>PEPPERDINE UNIVERSITY CLASS OF '96 &amp; '07</h2>
+                    <h3>Masters in Education, Administrative Leadership, Clinical Psychology, School Site Counseling</h3>
+                    <h2>GLENDALE HIGH SCHOOL SINCE 1996</h2>
+                    <h3>Dance Director, AP English Literature</h3>
+                    <h2>CALIFORNIA ASSOCIATIVE OF DANCE/DRILL TEAM DIRECTORS</h2>
+                    <h3>VICE PRESIDENT, 2013-2015</h3>
+                    <h3>PRESIDENT, 2015-2017</h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!--Coaches Modal-->
-        <div id="ourCoaches" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Meet our Coaches</h4>
-                    </div>
-                    <div class="modal-body">
-                        <img class="img-responsive" alt="Kelly Palmer" src="images/GlendaleCoaches.JPG" height=700 width=750>
-                        <div class="col-lg-6">
-                            <h1> Kelly Palmer </h1>
-                            <img class="img-responsive" alt="Kelly Palmer" src="images/KellyPalmer.jpg" height=250 width=250>
-                            <h3>Director since 1995</h3>
-                            <br>
-                            <h1> Stephanie Boon</h1>
-                            <img class="img-responsive" alt="Stephanie Boon" src="images/coaches-2017/Boonie.jpeg">
-                            <h3>Dance &amp; Drill Team Coach</h3>
-                            <h4>GHS Alumna, 2009</h4>
-                            <h4><ul>Dance Team:
+    </div>
+    <!--Coaches Modal-->
+    <div id="ourCoaches" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Meet our Coaches</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" alt="Kelly Palmer" src="images/GlendaleCoaches.JPG" height=700 width=750>
+                    <div class="col-lg-6">
+                        <h1> Kelly Palmer </h1>
+                        <img class="img-responsive" alt="Kelly Palmer" src="images/KellyPalmer.jpg" height=250 width=250>
+                        <h3>Director since 1995</h3>
+                        <br>
+                        <h1> Stephanie Boon</h1>
+                        <img class="img-responsive" alt="Stephanie Boon" src="images/coaches-2017/Boonie.jpeg">
+                        <h3>Dance &amp; Drill Team Coach</h3>
+                        <h4>GHS Alumna, 2009</h4>
+                        <h4><ul>Dance Team:
                             <li>Small Dance Drill</li>
                             <li>Large Dance Drill</li>
                             <li>Large lyrical</li>
@@ -331,135 +328,135 @@
                             <li>Large Military</li>
                             
                         </ul></h4>
-                            <br>
-                            <h1> Sean Koro</h1>
-                            <img class="img-responsive" alt="Sean Koro" src="images/coaches-2017/Sean.jpeg">
-                            <h3>Dance Team Coach</h3>
-                            <h4>GHS Alumnus</h4>
-                            <h4>Co-Ed Dance</h4>
-                            <br>
-                            <h1> Daniel Kim </h1>
-                            <img class="img-responsive" alt="Daniel Kim" src="images/coaches-2017/DanielK.jpeg">
-                            <h3>Dance Team Coach</h3>
-                            <h4>GHS Alumnus, 2011</h4>
-                            <h4>Large Hip Hop</h4>
-                            <h4>All Male</h4>
-                            <br>
-                            <h1> Marc Miranda </h1>
-                            <img class="img-responsive" alt="Marc Miranda" src="images/MarcMiranda.JPG" height=250 width=250>
-                            <h3>Dance Team Coach</h3>
-                            <h4>GHS Alumnus</h4>
-                            <h4>All Male</h4>
-                            <br>
-                            <h1> Allina Urumieh</h1>
-                            <img class="img-responsive" alt="Allina Urumieh" src="images/coaches-2017/AllinaU.jpeg">
-                            <h3>Dance Team Coach</h3>
-                            <h4>GHS Alumna, 2013</h4>
-                            <h4>Solos</h4>
-                            <br>
-                        </div>
-                        <div clas="col-lg-6">
-                            <h1>Jordan Murray</h1>
-                            <img class="img-responsive" alt="Jordan Murray" src="images/coaches-2017/JordanM.jpeg">
-                            <h3>Drill Team Coach</h3>
-                            <h4>GHS Alumna, 2015</h4>
-                            <h4><ul>
+                        <br>
+                        <h1> Sean Koro</h1>
+                        <img class="img-responsive" alt="Sean Koro" src="images/coaches-2017/Sean.jpeg">
+                        <h3>Dance Team Coach</h3>
+                        <h4>GHS Alumnus</h4>
+                        <h4>Co-Ed Dance</h4>
+                        <br>
+                        <h1> Daniel Kim </h1>
+                        <img class="img-responsive" alt="Daniel Kim" src="images/coaches-2017/DanielK.jpeg">
+                        <h3>Dance Team Coach</h3>
+                        <h4>GHS Alumnus, 2011</h4>
+                        <h4>Large Hip Hop</h4>
+                        <h4>All Male</h4>
+                        <br>
+                        <h1> Marc Miranda </h1>
+                        <img class="img-responsive" alt="Marc Miranda" src="images/MarcMiranda.JPG" height=250 width=250>
+                        <h3>Dance Team Coach</h3>
+                        <h4>GHS Alumnus</h4>
+                        <h4>All Male</h4>
+                        <br>
+                        <h1> Allina Urumieh</h1>
+                        <img class="img-responsive" alt="Allina Urumieh" src="images/coaches-2017/AllinaU.jpeg">
+                        <h3>Dance Team Coach</h3>
+                        <h4>GHS Alumna, 2013</h4>
+                        <h4>Solos</h4>
+                        <br>
+                    </div>
+                    <div clas="col-lg-6">
+                        <h1>Jordan Murray</h1>
+                        <img class="img-responsive" alt="Jordan Murray" src="images/coaches-2017/JordanM.jpeg">
+                        <h3>Drill Team Coach</h3>
+                        <h4>GHS Alumna, 2015</h4>
+                        <h4><ul>
                             <li>Small Dance Drill</li>
                         </ul></h4>
-                            <br>
-                            <h1> Alissa Highgate </h1>
-                            <img class="img-responsive" alt="Alissa Highgate" src="images/coaches-2017/KikiHighgate.jpeg" height=250 width=250>
-                            <h3>Drill Team Coach</h3>
-                            <h4>GHS Alumna, 2016</h4>
-                            <h4><ul>
+                        <br>
+                        <h1> Alissa Highgate </h1>
+                        <img class="img-responsive" alt="Alissa Highgate" src="images/coaches-2017/KikiHighgate.jpeg" height=250 width=250>
+                        <h3>Drill Team Coach</h3>
+                        <h4>GHS Alumna, 2016</h4>
+                        <h4><ul>
                             
                             <li>Large Military</li>
                             
                         </ul></h4>
-                            <br>
-                            <h1> Micah Caro</h1>
-                            <img class="img-responsive" alt="Micah Caro" src="images/coaches-2017/MicahCaro.jpeg">
-                            <h3>Drill Team Coach</h3>
-                            <h4>GHS Alumna, 2016</h4>
-                            <h4><ul>
+                        <br>
+                        <h1> Micah Caro</h1>
+                        <img class="img-responsive" alt="Micah Caro" src="images/coaches-2017/MicahCaro.jpeg">
+                        <h3>Drill Team Coach</h3>
+                        <h4>GHS Alumna, 2016</h4>
+                        <h4><ul>
                             
                             <li>Medium Hip Hop</li>
                             <li>Small Military</li>
                             
                         </ul></h4>
-                            <br>
-                            <h1> Jared Singzon </h1>
-                            <img class="img-responsive" alt="Jared Singzon" src="images/coaches-2017/JaredS.jpeg">
-                            <h3>Middle School Coach</h3>
-                            <h4>GHS Alumnus, 2016</h4>
-                            <h4>Roosevelt Middle School Dance Program</h4>
-                            <br>
-                            <h1> Iris Arciniega </h1>
-                            <img class="img-responsive" alt="Iris Arciniega" src="images/coaches-2017/Iris.jpeg">
-                            <h4>GHS Alumna, 2009</h4>
-                            <h4>Costumes &amp; Outfits</h4>
-                            <br>
-                            <h1> Mr. Lancaster</h1>
-                            <img class="img-responsive" alt="Mr. Lancaster" src="images/coaches-2017/MikeLancaster.png">
-                            <h4>Photographer</h4>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+                        <br>
+                        <h1> Jared Singzon </h1>
+                        <img class="img-responsive" alt="Jared Singzon" src="images/coaches-2017/JaredS.jpeg">
+                        <h3>Middle School Coach</h3>
+                        <h4>GHS Alumnus, 2016</h4>
+                        <h4>Roosevelt Middle School Dance Program</h4>
+                        <br>
+                        <h1> Iris Arciniega </h1>
+                        <img class="img-responsive" alt="Iris Arciniega" src="images/coaches-2017/Iris.jpeg">
+                        <h4>GHS Alumna, 2009</h4>
+                        <h4>Costumes &amp; Outfits</h4>
+                        <br>
+                        <h1> Mr. Lancaster</h1>
+                        <img class="img-responsive" alt="Mr. Lancaster" src="images/coaches-2017/MikeLancaster.png">
+                        <h4>Photographer</h4>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Drill Captains Modal-->
-        <div id="drillCaptains" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Glendale Drill Captains</h4>
-                    </div>
-                    <div class="modal-body">
+    </div>
+    <!--Drill Captains Modal-->
+    <div id="drillCaptains" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Glendale Drill Captains</h4>
+                </div>
+                <div class="modal-body">
                     <h3>Drill Captains 2017-2018 COMING SOON</h3>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!--Dance Captains Modal-->
-        <div id="danceCaptains" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Glendale Dance Captains</h4>
-                    </div>
-                    <div class="modal-body">
+    </div>
+    <!--Dance Captains Modal-->
+    <div id="danceCaptains" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Glendale Dance Captains</h4>
+                </div>
+                <div class="modal-body">
                     <h3>Dance Captains 2017-2018 COMING SOON</h3>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!--Footer-->
-        <nav class="navbar navbar-default navbar-bottom" id="footer">
-            <div class="container footer-class">
-                <div class="fixed text-center footer-margin">
-                    <p class="contact-us">Contact Us:</p>
-                    <a href="https://www.instagram.com/ghsdanceallday/" target="_blank"><img src="images/IGLogo-2.png" alt="ig logo" height=17 width=17></a>
-                    <a href="mailto:glendaledancedrill@gmail.com" target="_top"><img src="images/GmailLogo.png" alt="ig logo" height=25 width=25></a>
-                    <p class="madeBy"> &copy; 2017 Joyce Tio</p>
-                </div>
+    </div>
+    <!--Footer-->
+    <nav class="navbar navbar-default navbar-bottom" id="footer">
+        <div class="container footer-class">
+            <div class="fixed text-center footer-margin">
+                <p class="contact-us">Contact Us:</p>
+                <a href="https://www.instagram.com/ghsdanceallday/" target="_blank"><img src="images/IGLogo-2.png" alt="ig logo" height=17 width=17></a>
+                <a href="mailto:glendaledancedrill@gmail.com" target="_top"><img src="images/GmailLogo.png" alt="ig logo" height=25 width=25></a>
+                <p class="madeBy"> &copy; 2017 Joyce Tio</p>
             </div>
-        </nav>
-        <!-- Bootstrap JS & jQuery -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        </div>
+    </nav>
+    <!-- Bootstrap JS & jQuery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 
 </html>

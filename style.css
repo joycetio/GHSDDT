@@ -1,5 +1,7 @@
 body {
-  background-color: black;
+  font-family: 'Amaranth', sans-serif;
+  background-image: url("images/stardust.png");
+  background-size: 100%;
   padding-bottom: 70px;
   padding-top: 70px;
 }
@@ -8,10 +10,16 @@ body {
 	color: #082e4f;
 }
 
-.jumbotron {
+.eventsJumbo {
   background-color: pink;
   margin-top: 20px;
   height: 450px;
+}
+
+.homeJumbo {
+  background-image: url("images/FullSizeRender.jpg");
+  background-size: cover;
+  color: #d3eded;
 }
 
 #announcement {
@@ -20,7 +28,7 @@ body {
 
 .jumboTitle {
     font-family: 'Pacifico', cursive;
-    color: #f7e6e6;
+    color: #eceff1;
     font-size: 50px;
 }
 
@@ -28,8 +36,9 @@ body {
     color: black;
 }
 
-.nationalTitlesList {
-	color: red;
+#homePanels {
+  /*background-color: black;*/
+ /* color: red;*/
 }
 
 .ghsLogo {
