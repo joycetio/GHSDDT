@@ -24,10 +24,9 @@ body {
 
 
 .jumboTitle {
-    /*font-family: 'Pacifico', cursive;*/
-    color: #eceff1;
-    font-size: 24px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Pacifico', cursive;
+    color: #192842;
+    font-size: 55px;
 }
 
 
@@ -40,6 +39,10 @@ body {
   display: inline-block;
 }
 
+.navLogoFont {
+  font-size: 24px;
+    font-family: 'Great Vibes', cursive;
+}
 
 /*panels*/
 .panel-title {
@@ -92,6 +95,15 @@ body {
 /*events*/
 #announcement {
   font-size: 100px;
+}
+
+/*media*/
+.thanksCredit {
+  font-size: 10px;
+}
+
+.whiteColor {
+  color: white;
 }
 
 /*footer CSS*/
