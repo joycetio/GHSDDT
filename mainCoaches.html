@@ -14,12 +14,34 @@
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="coaches.css">
 </head>
 
 <body>
-    <h1 class="jumboTitle text-center">Glendale Dance Drill Team</h1>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header navbar-inverse">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand jumboTitle" href="#">Ghsddt</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="nav navbar-nav navbar-right" id="navID">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="mainCoaches.html">Meet the Staff<span class="sr-only">(current)</span></a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="media.html">Media</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <h1 class="jumboTitle text-center">Glendale Dance Drill Team</h1>
     <div class="row">
         <div class="col-md-12 text-center">
             <ul class="nav nav-pills center-pills">
@@ -29,7 +51,7 @@
                 <li role="presentation"><a href="media.html">Media</a></li>
             </ul>
         </div>
-    </div>
+    </div> -->
     <br>
     <br>
     <div class="container-fluid">
@@ -38,114 +60,118 @@
                 <img src="images/KellyPalmer.jpg" class="img-responsive" height="500" width="500">
             </div>
             <div class="col-md-6">
-                <h2 class="staffTitle">Meet our Director: </h2>
-                <h1 class="staffName">Kelly Palmer</h1>
+                <h2 class="staffTitle" id="jumboStaffTitle">Meet our Director: </h2>
+                <h1 class="staffName" id="jumboStaffName">Kelly Palmer</h1>
                 <h4 class="staffBio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h4>
             </div>
         </div>
         <br>
-        <!--Coaches Bio-->
-        <hr/>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="staffTitle">Dance Coaches</h2>
-                        <div class="row">
-                            <img src="images/coaches-2017/Boonie.jpeg" class="img-responsive" height="350" width="350">
-                            <h3 class="staffName">Stephanie Boon</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4>
-                            <ul>Squads:
+    </div>
+    <!--Coaches Bio-->
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="staffTitle">Dance Coaches</h2>
+                            <div class="row">
+                                <img src="images/coaches-2017/Boonie.jpeg" class="img-responsive" height="350" width="350">
+                                <h3 class="staffName">Stephanie Boon</h3>
+                                <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
+                                <h4>
+                            <ul class="squads">Squads:
                         <li>Small Dance Drill</li>
                         <li>Large Dance Drill</li> 
                         </ul>
                         </h4>
-                        </div>
-                        <div class="row">
-                            <img src="images/coaches-2017/Sean.jpeg" class="img-responsive" height="350" width="350">
-                            <h3 class="staffName">Sean Koro</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4><ul>Squads:
+                            </div>
+                            <div class="row">
+                                <img src="images/coaches-2017/Sean.jpeg" class="img-responsive" height="350" width="350">
+                                <h3 class="staffName">Sean Koro</h3>
+                                <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
+                                <h4><ul class="squads">Squads:
                         <li>Coed Dance</li>
                         </ul></h4>
-                        </div>
-                        <div class="row">
-                            <img src="images/coaches-2017/DanielK.jpeg" class="img-responsive" height="350" width="350">
-                            <h3 class="staffName">Daniel Kim</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4>
-                            <ul>Squads:
+                            </div>
+                            <div class="row">
+                                <img src="images/coaches-2017/DanielK.jpeg" class="img-responsive" height="350" width="350">
+                                <h3 class="staffName">Daniel Kim</h3>
+                                <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
+                                <h4>
+                            <ul class="squads">Squads:
                         <li>Large Hip Hop</li>
                         <li>All Male</li> 
                         </ul>
                         </h4>
-                        </div>
-                        <div class="row">
-                            <img src="images/coaches-2017/MarcMiranda.jpeg" class="img-responsive" height="350" width="350">
-                            <h3 class="staffName">Marc Miranda</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4>
-                            <ul>Squads:
+                            </div>
+                            <div class="row">
+                                <img src="images/coaches-2017/MarcMiranda.jpeg" class="img-responsive" height="350" width="350">
+                                <h3 class="staffName">Marc Miranda</h3>
+                                <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
+                                <h4>
+                            <ul class="squads">Squads:
                         <li>All Male</li> 
                         </ul>
                         </h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="staffTitle">Drill Coaches</h2>
-                        <div class="row">
-                            <img src="images/coaches-2017/MicahCaro.jpeg" class="img-responsive" height="350" width="350">
-                            <h3 class="staffName">Micah Caro</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4><ul>Squads:
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="staffTitle">Drill Coaches</h2>
+                            <div class="row">
+                                <img src="images/coaches-2017/MicahCaro.jpeg" class="img-responsive" height="350" width="350">
+                                <h3 class="staffName">Micah Caro</h3>
+                                <p class="staffBio">Class of 2016, 4 year member and 2 year captain. Started coaching in 2016 and is a full time student.</p>
+                                <h4><ul class="squads">Squads:
                         <li>Medium Hip Hop</li>
                         <li>Small Military</li> 
                         </ul></h4>
-                        </div>
-                        <div class="row">
-                            <img src="images/coaches-2017/KikiHighgate.jpeg" class="img-responsive" height="350" width="350">
-                            <h3 class="staffName">Alissa Highgate</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4><ul>Squads:
+                            </div>
+                            <div class="row">
+                                <img src="images/coaches-2017/KikiHighgate.jpeg" class="img-responsive" height="350" width="350">
+                                <h3 class="staffName">Alissa Highgate</h3>
+                                <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
+                                <h4><ul class="squads">Squads:
                         <li>Large Military</li>
                         </ul></h4>
-                        </div>
-                        <div class="row">
-                            <img src="images/coaches-2017/JordanM.jpeg" class="img-responsive" height="300" width="300">
-                            <h3 class="staffName">Jordan Murray</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4><ul>Squads:
+                            </div>
+                            <div class="row">
+                                <img src="images/coaches-2017/JordanM.jpeg" class="img-responsive" height="300" width="300">
+                                <h3 class="staffName">Jordan Murray</h3>
+                                <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
+                                <h4><ul class="squads">Squads:
                         <li>Small Dance Drill</li> 
                         </ul></h4>
-                        </div>
-                        <div class="row">
-                            <img src="images/coaches-2017/JaredS.jpeg" class="img-responsive" height="350" width="350">
-                            <h3 class="staffName">Jared Singzon</h3>
-                            <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
-                            <h4><ul>Squads:
+                            </div>
+                            <div class="row">
+                                <img src="images/coaches-2017/JaredS.jpeg" class="img-responsive" height="350" width="350">
+                                <h3 class="staffName">Jared Singzon</h3>
+                                <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, est, possimus. Accusantium vel corporis neque quisquam odio quia, sed doloremque aliquid inventore facilis alias officia, deleniti porro, asperiores amet laborum!</p>
+                                <h4><ul class="squads">Squads:
                         <li>Roosevelt Middle School Dance Program</li>
                         </ul></h4>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Consultants Bio-->
-        <hr/>
+    </div>
+    <!--Consultants Bio-->
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="staffTitle">Our Consultants</h1>
+                <h1 class="staffTitle" id="jumboStaffTitle">Our Consultants</h1>
                 <div class="row">
                     <div class="col-md-5">
                         <img src="images/coaches-2017/MikeLancaster.png" alt="img-responsive" height="350" width="350">
                     </div>
                     <div class="col-md-7">
-                        <h3 class="staffName">Photographer: Mike Lancaster</h3>
+                        <h3 class="staffName" id="jumboStaffName">Photographer: Mike Lancaster</h3>
                         <p class="staffBio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt exercitationem, repudiandae officiis amet placeat praesentium minima blanditiis voluptate, quod repellendus ad, ipsam officia quia hic facilis aperiam eaque tempore dolorum!</p>
                     </div>
                 </div>
@@ -191,8 +217,9 @@
         </footer>
     </div>
     <!-- Bootstrap JS & jQuery -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="javascript/app.js"></script>
 </body>
 
 </html>

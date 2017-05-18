@@ -2,11 +2,12 @@ body {
   font-family: 'Amaranth', sans-serif;
   /*background-image: url("images/stardust.png");*/
   /*background-size: 100%;*/
-  background-color: black;
+  background-color: white;
 }
 
-#navbarID {
-	color: #082e4f;
+/*jumbotrons */
+.jumbotron {
+  background-color: black;
 }
 
 .eventsJumbo {
@@ -21,29 +22,34 @@ body {
   color: #d3eded;
 }
 
-#announcement {
-  font-size: 100px;
-}
 
 .jumboTitle {
-    font-family: 'Pacifico', cursive;
+    /*font-family: 'Pacifico', cursive;*/
     color: #eceff1;
-    font-size: 50px;
+    font-size: 24px;
+    font-family: 'Great Vibes', cursive;
 }
 
+
+/*navbars */
+#navbarID {
+	color: #082e4f;
+}
+
+.center-pills {
+  display: inline-block;
+}
+
+
+/*panels*/
 .panel-title {
     color: black;
 }
 
-.ghsLogo {
-	margin-top: -15px;
-	height: 50px;
-	width: 50px;
-}
 
-
-.center-pills {
-  display: inline-block;
+/*home */
+.imageRotate {
+    transform: rotate(180deg);
 }
 
 .font-logo {
@@ -52,8 +58,10 @@ body {
   font-size: 25px;
 }
 
-.imageRotate {
-    transform: rotate(180deg);
+.ghsLogo {
+  margin-top: -15px;
+  height: 50px;
+  width: 50px;
 }
 
 /*Meet the Staff CSS*/
@@ -68,11 +76,30 @@ body {
 .staffBio {
   color: #01579b;
 }
+
+#jumboStaffName {
+  color: #0d0e0f;
+}
+
+#jumboStaffTitle {
+  color: #354351;
+}
+
+.squads {
+  color: #617487;
+}
+
+/*events*/
+#announcement {
+  font-size: 100px;
+}
+
 /*footer CSS*/
 
 #footerPanel {
   width: 100%;
-  background-color: #828ea3;
+  /*background-color: #828ea3;*/
+  background-color: #9599a0;
   color: white;
 }
 
