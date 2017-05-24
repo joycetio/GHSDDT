@@ -67,6 +67,10 @@ body {
   width: 50px;
 }
 
+.modalScroll {
+    max-height: calc(100vh - 212px);
+    overflow-y: auto;
+}
 /*Meet the Staff CSS*/
 .staffTitle {
   color: #eceff1;
