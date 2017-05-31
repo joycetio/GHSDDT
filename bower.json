@@ -1,0 +1,25 @@
+{
+  "name": "glendale-dance",
+  "description": "Glendale High School's dance team's official website!",
+  "main": "index.html",
+  "authors": [
+    "Joyce Tio"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Glendale",
+    "Dance",
+    "Drill",
+    "Team",
+    "dance"
+  ],
+  "homepage": "https://github.com/joycetio/GHSDDT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
