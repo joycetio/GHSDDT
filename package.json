@@ -1,0 +1,30 @@
+{
+  "name": "glendale-dance",
+  "version": "1.0.0",
+  "description": "Glendale High School's dance team's official website! ",
+  "main": "index.html",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm install "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joycetio/GHSDDT.git"
+  },
+  "keywords": [
+    "Glendale",
+    "Dance",
+    "Drill",
+    "Team",
+    "dance"
+  ],
+  "author": "Joyce Tio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joycetio/GHSDDT/issues"
+  },
+  "homepage": "https://github.com/joycetio/GHSDDT#readme"
+}
