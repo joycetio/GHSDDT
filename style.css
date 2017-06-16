@@ -1,7 +1,5 @@
 body {
   font-family: 'Amaranth', sans-serif;
-  /*background-image: url("images/stardust.png");*/
-  /*background-size: 100%;*/
   background-color: white;
 }
 
@@ -122,3 +120,16 @@ body {
 .madeBy {
   font-size: 10px;
 }
+
+/*Carousel*/
+.carouselPic {
+  height: 550px;
+  max-height: 550px;
+  width: 1000px;
+}
+
+#myCarousel {
+  width: 80%; 
+  margin: auto;
+}
+
