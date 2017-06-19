@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Joyce Tio">
@@ -11,7 +11,8 @@
     <meta property="og:title" content="Glendale Dance Drill Team">
     <title>Glendale DDT / Home</title>
     <!--icon-->
-     <link rel="icon" type="image" href="images/Glogo-02.png" height="50" width="50"> 
+    <link rel="icon" type="image" href="images/Glogo-02.png" height="50" width="50">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
@@ -25,24 +26,40 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
+    <!--Create a new navbar: 
+    IDEA: 
+    Create a jumbotron and put the a gif for background
+        - Ask Cloe for a clip of nationals video and make it into a gif 
+        - Set the gif as the background-img of the jumbotron 
+        - Adjust the opacity to not distract users of the changing background 
+    Put in nav on the center of the page, and make sure to have a dropdown 
+        -If necessary, create a "wrapper" div around the navs to be able to manipulate its opaccity
+        - Change "Meet the Staff" nav to "About" nav 
+        - Add a dropdown for the About 
+            * Director
+            * Coaches 
+            * Consultants 
+            (OR, just the add the staff page in general)
+    -->
+    <nav class="navbar navbar-inverse" id="navbar-black">
         <div class="container-fluid">
-            <div class="navbar-header navbar-inverse">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand navLogoFont" href="#">Ghsddt</a>
+                <a class="navbar-brand navLogoFont" href="#"></a>
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav navbar-right" id="navID">
                     <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span class="sr-only">(current)</span></a></li>
-                    <li><a href="mainCoaches.html">Meet the Staff</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="events.html">Events</a></li>
                     <li><a href="media.html">Media</a></li>
                 </ul>
@@ -165,8 +182,8 @@
                             <p>The captains of the team are members of the team that are elected by their peers and coaches.
                                 Each captain is in charge of a specific competition routine or program.</p>
                             <button type="button" data-toggle="modal" data-target="#headCaptain" class="btn btn-primary">Head Captain</button>
-                            <button type="button" data-toggle="modal" data-target="#danceCaptains" class="btn btn-primary">Dance Captains</button>
-                            <button type="button" data-toggle="modal" data-target="#drillCaptains" class="btn btn-primary">Drill Captains</button>
+                            <button type="button" data-toggle="modal" data-target="#danceCaptains" class="btn btn-primary">Co-Captains</button>
+                            <button type="button" data-toggle="modal" data-target="#drillCaptains" class="btn btn-primary">Dance/Drill Captains</button>
                         </div>
                     </div>
                 </div>
@@ -178,14 +195,14 @@
             <div class="col-lg-12">
                 <div class="panel">
                     <div class="panel-heading" id="panelID">
-                        <p class="panel-title">The Dance Team's History</p>
+                        <h1 class="text-center" style="font-family: 'Pacifico', cursive;">The Dance Team's History</h1>
                     </div>
                     <div class="panel-body">
-                        <p>Since 1999, under the direction of Kelly Palmer, the dance/drill team program has won over 50 National
+                        <h4>Since 1999, under the direction of Kelly Palmer, the dance/drill team program has won over 50 National
                             Championship titles. The GHS JV and Varsity dance/drill team competes annually at the United
                             Spirit Association Nationals competition. This is held at the Anaheim Convention Center. The
-                            GHS dance/drill team consists of more than 80 dancers with ten coaches and a director.</p>
-                        <h4><strong>USA National Championship titles since 1999:</strong></h4>
+                            GHS dance/drill team consists of more than 80 dancers with ten coaches and a director.</h4>
+                        <h2><strong>USA National Championship titles since 1999:</strong></h2>
                         <table class="table table-bordered">
                             <tr class="default">
                                 <td>Year</td>
@@ -446,40 +463,16 @@
             <div class='modal-content'>
                 <div class='modal-header'>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Head Captain</h4>
+                    <h4 class="modal-title">Glendale Head Captain</h4>
                 </div>
                 <div class="modal-body">
-                    <img src="images/newTeam2018/HeadCaptain.JPG" class="img-responsive imageRotate">
-                    <h1>Loren Te</h1>
-                    <h3>HEAD CAPTAIN, Coed Lead</h3>
-                </div>
-                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Drill Captains Modal-->
-    <div id="drillCaptains" class="modal fade" role="dialog">
-        <div class="modal-dialog modal-lg">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Glendale Drill Captains</h4>
-                </div>
-                <div class="modal-body">
-                    <h3>
-                        <ul>
-                            <li>Kira Lazarri
-                                <p>CO-CAPTAIN, Large Military</p>
-                            </li>
-                            <br>
-                            <li>Ashley Zamora
-                                <p>Small Military, Small Dance Drill</p>
-                            </li>
-                        </ul>
-                    </h3>
+                    <div class="center-wrapper-homePanel">
+                        <img src="images/newTeam2018/HeadCaptain.JPG" class="img-responsive imageRotate" height="350" width="650">
+                        <div class="text-center">
+                            <h1>Loren Te</h1>
+                            <h3>HEAD CAPTAIN, Coed Lead</h3>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -487,22 +480,18 @@
             </div>
         </div>
     </div>
-    <!--Dance Captains Modal-->
-    <div id="danceCaptains" class="modal fade" role="dialog">
+    <!--Dance/Drill Captains Modal-->
+    <div id="drillCaptains" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Glendale Dance Captains</h4>
+                    <h4 class="modal-title">Glendale Dance/Drill Captains</h4>
                 </div>
                 <div class="modal-body">
                     <h3>
                         <ul>
-                            <li>Sammy Matara
-                                <p>CO-CAPTAIN, Large Dance Drill</p>
-                            </li>
-                            <br>
                             <li>Aaliyah Barcelona
                                 <p>Large Military</p>
                             </li>
@@ -517,6 +506,38 @@
                             <br>
                             <li>Alexandra Perlman
                                 <p>Small Hip Hop</p>
+                            </li>
+                            <br>
+                            <li>Ashley Zamora
+                                <p>Small Military, Small Dance Drill</p>
+                            </li>
+                        </ul>
+                    </h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Co-Captains Modal-->
+    <div id="danceCaptains" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Glendale Co-Captains</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>
+                        <ul>
+                            <li>Sammy Matara
+                                <p>CO-CAPTAIN, Large Dance Drill</p>
+                            </li>
+                            <br>
+                            <li>Kira Lazarri
+                                <p>CO-CAPTAIN, Large Military</p>
                             </li>
                         </ul>
                     </h3>
@@ -549,7 +570,7 @@
                             <h4>Site Map</h4>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="mainCoaches.html">Meet the Staff</a></li>
+                                <li><a href="about.html">About</a></li>
                                 <li><a href="media.html">Media</a></li>
                                 <li><a href="events.html">Events</a></li>
                             </ul>

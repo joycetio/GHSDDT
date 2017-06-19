@@ -1,11 +1,21 @@
 body {
   font-family: 'Amaranth', sans-serif;
-  background-color: white;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  /*background-color: #1a1b1c;*/
+  background-color: #161515;
+ 
+}
+
+#navbar-black {
+  color: blue;
 }
 
 /*jumbotrons */
 .jumbotron {
-  background-color: black;
+  background-color: #9b0101;
+  /*background-color: #a30e0e;*/
+  /*background-color: #660000;*/
+  color: black;
 }
 
 .eventsJumbo {
@@ -23,7 +33,8 @@ body {
 
 .jumboTitle {
     font-family: 'Pacifico', cursive;
-    color: #192842;
+    /*color: #192842;*/
+    color: white;
     font-size: 55px;
 }
 
@@ -45,6 +56,10 @@ body {
 /*panels*/
 .panel-title {
     color: black;
+}
+
+#staff-panel {
+  background-color: black;
 }
 
 
@@ -69,9 +84,20 @@ body {
     max-height: calc(100vh - 212px);
     overflow-y: auto;
 }
+
+.center-wrapper-homePanel {
+  width: 80%; 
+  margin: auto;
+}
+
 /*Meet the Staff CSS*/
+#staff-img {
+  height: 354px;
+  width: 344px;
+}
 .staffTitle {
-  color: #eceff1;
+  /*color: #eceff1;*/
+  color: #9b0101;
 }
 
 .staffName {
@@ -79,16 +105,18 @@ body {
 }
 
 .staffBio {
-  color: #01579b;
+  /*color: #01579b;*/
+  /*color: #363d47;*/
+  color: white;
 }
 
-#jumboStaffName {
+/*#jumboStaffName {
   color: #0d0e0f;
 }
 
 #jumboStaffTitle {
   color: #354351;
-}
+}*/
 
 .squads {
   color: #617487;
@@ -107,6 +135,7 @@ body {
 .whiteColor {
   color: white;
 }
+
 
 /*footer CSS*/
 
