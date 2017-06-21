@@ -3,25 +3,22 @@ body {
   /*font-family: 'Open Sans Condensed', sans-serif;*/
   /*background-color: #1a1b1c;*/
   background-color: #161515;
- 
-}
-
-#navbar-black {
-  color: blue;
+  position: relative;
 }
 
 /*jumbotrons */
 .jumbotron {
   background-color: #9b0101;
-  /*background-color: #a30e0e;*/
-  /*background-color: #660000;*/
   color: black;
 }
 
-.eventsJumbo {
-  background-color: pink;
+#campGdale {
+  background-color: #a37373;
+}
+#competitionJumbo {
+  font-family: 'Lora', serif;
+  background-color: #e3e5e8;
   margin-top: 20px;
-  height: 450px;
 }
 
 .homeJumbo {
@@ -123,8 +120,16 @@ body {
 }
 
 /*events*/
-#announcement {
-  font-size: 100px;
+ #master-calendar {
+   color: white;
+   /*overflow-y: scroll;
+   height: 850px;*/
+
+ }
+.months {
+  font-size: 75px;
+  font-family: 'Lobster', cursive;
+  color: #a80000;
 }
 
 /*media*/
