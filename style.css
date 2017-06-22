@@ -8,14 +8,13 @@ body {
 }
 
 /*changes the scrollbar on events page */
-/*::-webkit-scrollbar {
-    
-}*/
+::-webkit-scrollbar {
+  background-color: #161515;  
+}
 
-/*.scroll-div {
-  /*background-color: #1a1c1e;*/
-  /*background-color: white;
-}*/
+::-webkit-scrollbar-thumb {
+  background-color: #222323;
+}
 
 .active {
   background-color: #d0d6e2;
@@ -49,7 +48,6 @@ body {
     color: white;
     font-size: 55px;
 }
-
 
 /*navbars */
 #navbarID {
