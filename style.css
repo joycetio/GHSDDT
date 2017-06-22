@@ -8,12 +8,17 @@ body {
 }
 
 /*changes the scrollbar on events page */
-::-webkit-scrollbar {
-    width: 15px;
-}
+/*::-webkit-scrollbar {
+    
+}*/
+
+/*.scroll-div {
+  /*background-color: #1a1c1e;*/
+  /*background-color: white;
+}*/
 
 .active {
-  background-color: black;
+  background-color: #d0d6e2;
 }
 
 /*jumbotrons */
