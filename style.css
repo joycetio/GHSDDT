@@ -77,7 +77,7 @@ body {
 
 
 /*home */
-.imageRotate {
+#imageRotate {
     transform: rotate(180deg);
 }
 
