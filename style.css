@@ -177,7 +177,8 @@ body {
 .carouselPic {
   height: 550px;
   max-height: 550px;
-  width: 1000px;
+  width: auto;
+  margin: auto;
 }
 
 #myCarousel {
