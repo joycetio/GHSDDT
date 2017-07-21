@@ -1,21 +1,33 @@
 body {
   font-family: 'Amaranth', sans-serif;
   /*font-family: 'Open Sans Condensed', sans-serif;*/
-  /*background-color: #1a1b1c;*/
   height: 100%;
-  background-color: #161515;
-  /*background-color: #333132;*/
   color: black;
   position: relative; 
+  margin-top: 70px;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default {
+  border-radius: 0px;
 }
 
 /*changes the scrollbar on events page */
 ::-webkit-scrollbar {
-  background-color: #161515;  
+  background-color: #ffffff; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #222323;
+  background-color: #c4c9d1;
 }
 
 .active {
@@ -24,12 +36,14 @@ body {
 
 /*jumbotrons */
 .jumbotron {
-  background-color: #9b0101;
+  /* background-color: #9b0101; */
+  background-color: #7f5759;
   color: black;
 }
 
 #campGdale {
-  background-color: #a37373;
+  background-color: #212121;
+  /* background-color: #a37373; */
   /*background-color: #adedc1; */
 }
 #competitionJumbo {
@@ -72,7 +86,7 @@ body {
 }
 
 #staff-panel {
-  background-color: black;
+  background-color: #c4c9d1;
 }
 
 
@@ -85,7 +99,6 @@ body {
 
 .font-logo {
   font-family: 'Pacifico', cursive;
-  color: white;
   font-size: 25px;
 }
 
@@ -116,13 +129,11 @@ body {
 }
 
 .staffName {
-  color: #e1f5fe;
+  color: black;
 }
 
 .staffBio {
-  /*color: #01579b;*/
-  /*color: #363d47;*/
-  color: white;
+  color: black;
 }
 
 /*#jumboStaffName {
@@ -140,6 +151,7 @@ body {
 /*events*/
  #master-calendar {
    color: white;
+   background-color: black;
    /*overflow-y: scroll;
    height: 850px;*/
 
@@ -165,8 +177,10 @@ body {
 #footerPanel {
   width: 100%;
   /*background-color: #828ea3;*/
-  background-color: #9599a0;
+  background-color: #242526;
   color: white;
+  margin-bottom: auto;
+  border-radius: 0px;
 }
 
 .madeBy {

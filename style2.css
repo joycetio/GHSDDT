@@ -1,0 +1,57 @@
+#events {
+    background-color: #f4f2f3;
+}
+
+/* navbars */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default {
+  border-radius: 0px;
+}
+
+.table-bordered>tbody>tr>td {
+    border: 2px solid black;
+}
+
+#danceHistory {
+    /* background-color: #f3e5f5; */
+    background-color: #e5e3e4;
+}
+
+.about-header {
+    font-size: 50px;
+}
+
+
+/* extra assets */
+.fancy-font {
+    font-family: 'Pacifico', cursive;
+}
+
+/* fluffy.js */
+[data-fluffy-container] {
+    height: 300px;
+    margin: auto;
+    max-width: 100%;
+    min-height: 320px;
+    width: 1500px;
+}
+
+[data-fluffy-content] img {
+    display: block;
+    float: left;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fluffy-img {
+    height: 100%;
+}

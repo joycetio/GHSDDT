@@ -28,13 +28,14 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fluffy.min.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
-<body>
-
-    <nav class="navbar navbar-inverse">
+<body id="events">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <div class="navbar-header navbar-inverse">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -44,7 +45,7 @@
                 <a class="navbar-brand navLogoFont" href="#"></a>
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="nav navbar-nav navbar-right" id="navID">
+                <ul class="nav navbar-nav" id="navID">
                     <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="events.html">Events<span class="sr-only">(current)</span></a></li>
@@ -54,23 +55,32 @@
         </div>
     </nav>
     <br>
-    <div class="page-header">
-        <h1 class="text-center" style="color: #9b0101;">EVENTS</h1>
-    </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-8">
-                <h2 style="color: whitesmoke;">#MOVE18</h2>
-                <img src="images/newTeam2018/IMG_8554.JPG" alt="First Team Beach Trip on June 16, GHSDDT 17-18" class="img-responsive" height="500"
-                    width="750">
-                <br>
-                <p style="color: whitesmoke;">First Team Beach Trip</p>
-                <p style="color: azure">June 16, 2017</p>
+            <div class="col-lg-12 col-sm-6">
+                <h1 class="text-center fancy-font about-header">Glendale Dance/Drill Team</h1>
+                <h2 class='text-center'>EVENTS</h2>
             </div>
-            <div class="col-lg-2"></div>
         </div>
     </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6">
+                <div data-fluffy-container>
+                    <div data-fluffy-content>
+                        <img src="images/newTeam2018/IMG_8554.JPG" class="fluffy-img">
+                        <img src="images/newTeam2018/IMG_9502.JPG" class="fluffy-img">
+                        <img src="images/newTeam2018/IMG_9498.JPG" class="fluffy-img">
+                        <img src="images/newTeam2018/IMG_9431.JPG" class="fluffy-img">
+                        <img src="images/newTeam2018/IMG_9401.JPG" class="fluffy-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
     <div class="jumbotron" id="competitionJumbo">
         <div class="container" id="competition">
             <div class="row">
@@ -107,7 +117,8 @@
             </div>
         </div>
     </div>
-    <div class="container" id="master-calendar">
+    <section id="master-calendar">
+    <div class="container" >
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="text-center" style="color: white;">Master Calendar of Events</h1>
@@ -250,8 +261,10 @@
         </div>
 
     </div>
+        <br>
     <br>
-    <br>
+    </section>
+
     <div class="jumbotron" id="campGdale">
         <div class="container">
             <div class="row">
@@ -288,7 +301,6 @@
         </div>
     </div>
     <!--Footer -->
-    <div class="container-fluid">
         <footer>
             <div class="panel" id="footerPanel">
                 <div class="panel-body">
@@ -327,10 +339,10 @@
                 </div>
             </div>
         </footer>
-    </div>
     <!-- Bootstrap JS & jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="javascript/fluffy.min.js"></script>
     <script src="javascript/app.js"></script>
     <script>
         $('body').scrollspy({
