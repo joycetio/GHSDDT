@@ -1,3 +1,9 @@
+body {
+    font-family: Arial;
+}
+
+
+
 #events {
     background-color: #f4f2f3;
 }
@@ -29,10 +35,14 @@
     font-size: 50px;
 }
 
-
 /* extra assets */
 .fancy-font {
     font-family: 'Pacifico', cursive;
+}
+
+.staff-name {
+    font-weight: bold;
+    text-shadow: 2px 3px gray;
 }
 
 /* fluffy.js */
