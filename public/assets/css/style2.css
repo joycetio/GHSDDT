@@ -34,6 +34,9 @@ body {
 }
 
 /* extra assets */
+.scroll-div {
+    padding-top: 54px;
+}
 
 .red-link-color {
     color: red;
