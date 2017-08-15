@@ -1,0 +1,205 @@
+body {
+  font-family: 'Amaranth', sans-serif;
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  height: 100%;
+  color: black;
+  position: relative; 
+  margin-top: 70px;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-default {
+  border-radius: 0px;
+}
+
+/*changes the scrollbar on events page */
+::-webkit-scrollbar {
+  background-color: #ffffff; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c4c9d1;
+}
+
+.active {
+  background-color: #d0d6e2;
+}
+
+/*jumbotrons */
+.jumbotron {
+  /* background-color: #9b0101; */
+  background-color: #7f5759;
+  color: black;
+}
+
+#campGdale {
+  background-color: #212121;
+  color: white;
+  /* background-color: #a37373; */
+  /*background-color: #adedc1; */
+}
+#competitionJumbo {
+  font-family: 'Lora', serif;
+  background-color: #e3e5e8;
+  margin-top: 20px;
+}
+
+.homeJumbo {
+  background-image: url("images/FullSizeRender.jpg");
+  background-size: cover;
+  color: #d3eded;
+}
+
+
+.jumboTitle {
+    font-family: 'Pacifico', cursive;
+    /*color: #192842;*/
+    color: white;
+    font-size: 55px;
+}
+
+/*navbars */
+#navbarID {
+	color: #082e4f;
+}
+
+.center-pills {
+  display: inline-block;
+}
+
+.navLogoFont {
+  font-size: 24px;
+    font-family: 'Great Vibes', cursive;
+}
+
+/*panels*/
+.panel-title {
+    color: black;
+}
+
+#staff-panel {
+  background-color: #c4c9d1;
+}
+
+
+/*home */
+#imageRotate {
+    -webkit-transform: rotate(179.9deg); 
+    -ms-transform: rotate(179.9deg);  
+    transform: rotate(179.9deg);
+}
+
+.font-logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+
+.ghsLogo {
+  margin-top: -15px;
+  height: 50px;
+  width: 50px;
+}
+
+.modalScroll {
+    /*max-height: calc(100vh - 212px);*/
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.center-wrapper-homePanel {
+  width: 80%; 
+  margin: auto;
+}
+
+/*Meet the Staff CSS*/
+#staff-img {
+  height: 354px;
+  width: 344px;
+}
+.staffTitle {
+  /*color: #eceff1;*/
+  color: #9b0101;
+}
+
+.staffName {
+  color: black;
+}
+
+.staffBio {
+  color: black;
+}
+
+/*#jumboStaffName {
+  color: #0d0e0f;
+}
+
+#jumboStaffTitle {
+  color: #354351;
+}*/
+
+.squads {
+  color: #617487;
+}
+
+/*events*/
+ #master-calendar {
+   color: white;
+   background-color: black;
+   /*overflow-y: scroll;
+   height: 850px;*/
+
+ }
+.months {
+  padding-top: 52px;
+  font-size: 75px;
+  font-family: 'Lobster', cursive;
+  color: #a80000;
+}
+
+/*media*/
+.thanksCredit {
+  font-size: 10px;
+}
+
+.whiteColor {
+  color: white;
+}
+
+
+/*footer CSS*/
+
+#footerPanel {
+  width: 100%;
+  /*background-color: #828ea3;*/
+  background-color: #242526;
+  color: white;
+  margin-bottom: auto;
+  border-radius: 0px;
+}
+
+.madeBy {
+  font-size: 10px;
+}
+
+/*Carousel*/
+.carouselPic {
+  height: 550px;
+  max-height: 550px;
+  width: auto;
+  margin: auto;
+}
+
+#myCarousel {
+  width: 80%; 
+  margin: auto;
+}
+
