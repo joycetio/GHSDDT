@@ -23,6 +23,10 @@ body {
     height: 100%;
 }
 
+#campGlendale {
+  background-color: #bbd1e8;
+}
+
 #events {
     background-color: #f4f2f3;
 }
@@ -47,8 +51,7 @@ body {
 }
 
 #danceHistory {
-    /* background-color: #f3e5f5; */
-    background-color: #e5e3e4;
+    background-color: #eaeaea;
 }
 
 .about-header {
