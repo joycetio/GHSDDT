@@ -180,10 +180,14 @@ body {
 #footerPanel {
   width: 100%;
   /*background-color: #828ea3;*/
-  background-color: #242526;
-  color: white;
+  background-color: #eff1f2;
+  color: #555;
   margin-bottom: auto;
   border-radius: 0px;
+}
+
+.footer-header {
+  color: #232323;
 }
 
 .madeBy {
