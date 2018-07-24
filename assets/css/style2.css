@@ -28,6 +28,7 @@ body {
 }
 
 /* navbars */
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -37,7 +38,7 @@ body {
     text-align: center;
 }
 
-.navbar-default {
+.navbar-inverse {
   border-radius: 0px;
 }
 
@@ -76,4 +77,3 @@ body {
     margin: 0 auto;
     width: 80em;
 }
-
