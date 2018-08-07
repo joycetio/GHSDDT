@@ -1,5 +1,6 @@
 body {
-    font-family: Arial;
+  font-family: 'Playfair Display', serif;
+
 }
 
 /* fluffy.js */
@@ -23,11 +24,27 @@ body {
     height: 100%;
 }
 
+/* CAMP GLENDALE */
+#campGlendale {
+  background-color: #bbd1e8;
+}
+
+.campGdaleText {
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+}
+
+
+
+
+
+
 #events {
     background-color: #f4f2f3;
 }
 
 /* navbars */
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -37,7 +54,7 @@ body {
     text-align: center;
 }
 
-.navbar-default {
+.navbar-inverse {
   border-radius: 0px;
 }
 
@@ -46,8 +63,7 @@ body {
 }
 
 #danceHistory {
-    /* background-color: #f3e5f5; */
-    background-color: #e5e3e4;
+    background-color: #eaeaea;
 }
 
 .about-header {
@@ -76,4 +92,3 @@ body {
     margin: 0 auto;
     width: 80em;
 }
-
