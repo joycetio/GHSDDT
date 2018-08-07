@@ -1,6 +1,11 @@
 body {
+    /* font-family: 'Amaranth', sans-serif; */
+    /* font-family: 'Open Sans Condensed', sans-serif; */
   font-family: 'Playfair Display', serif;
-
+  height: 100%;
+  color: black;
+  position: relative;
+  margin-top: 70px;
 }
 
 /* fluffy.js */
@@ -24,15 +29,6 @@ body {
     height: 100%;
 }
 
-/* CAMP GLENDALE */
-#campGlendale {
-  background-color: #bbd1e8;
-}
-
-.campGdaleText {
-  font-family: 'Lobster', cursive;
-  font-size: 75px;
-}
 
 
 
@@ -61,6 +57,17 @@ body {
 .table-bordered>tbody>tr>td {
     border: 2px solid black;
 }
+/* << HOME PAGE >> */
+
+/* CAMP GLENDALE */
+#campGlendale {
+  background-color: #bbd1e8;
+}
+
+.campGdaleText {
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+}
 
 #danceHistory {
     background-color: #eaeaea;
@@ -69,6 +76,21 @@ body {
 .about-header {
     font-size: 50px;
 }
+
+/*changes the scrollbar on events page */
+::-webkit-scrollbar {
+  background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c4c9d1;
+}
+
+.active {
+  background-color: #d0d6e2;
+}
+
+
 
 /* extra assets */
 .scroll-div {
