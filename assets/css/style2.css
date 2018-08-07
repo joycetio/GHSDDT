@@ -1,5 +1,6 @@
 body {
-    font-family: Arial;
+  font-family: 'Playfair Display', serif;
+
 }
 
 /* fluffy.js */
@@ -23,9 +24,20 @@ body {
     height: 100%;
 }
 
+/* CAMP GLENDALE */
 #campGlendale {
   background-color: #bbd1e8;
 }
+
+.campGdaleText {
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+}
+
+
+
+
+
 
 #events {
     background-color: #f4f2f3;
