@@ -19,4 +19,4 @@ http://www.glendaledance.com/
 
 # Version 2.0
 * Updated website's home page for Class of 2019
-* Added Camp Glendale section in home page
+
